@@ -13,7 +13,7 @@
   --heading-color: black;
   --blockquote-border-color: #eee;
   --blockquote-text-color: #9a9a9a;
-  --link-color: #2a408e;
+  --link-color: black;
   --link-underline-color: #dee2e6;
   --text-muted-color: gray;
   --tb-odd-bg: #fbfcfd;
@@ -23,13 +23,14 @@
   --btn-backtotop-border-color: #f1f1f1;
   --btn-box-shadow: #eaeaea;
   --checkbox-color: #c5c5c5;
-  --checkbox-checked-color: #07a8f7;
+  --checkbox-checked-color: /*#07a8f7*/ #f5df4d;
 
   /* Sidebar */
-  --sidebar-bg: radial-gradient(
+  /*--sidebar-bg: radial-gradient(
     circle,
     rgba(42, 30, 107, 1) 0%,
-    rgba(35, 37, 46, 1) 100%);
+    rgba(35, 37, 46, 1) 100%); */
+  --sidebar-bg: #222222;
   --nav-cursor-color: #fcfcfc;
 
   /* Topbar */
@@ -44,11 +45,11 @@
   --post-list-text-color: dimgray;
   --btn-patinator-text-color: #555555;
   --btn-paginator-hover-color: #e9ecef;
-  --btn-active-bg: #2a408e;
-  --btn-active-border-color: #007bff;
-  --btn-text-color: #f8f8f8;
+  --btn-active-bg: /*#2a408e*/  #f5df4d;
+  --btn-active-border-color: /*007bff*/ #faeb8b;
+  --btn-text-color: /*#f8f8f8*/ rgb(126, 126, 126);
   --btn-paginator-border-color: #f1f1f1;
-  --btn-paginator-shadow: #4b92d2;
+  --btn-paginator-shadow: /*#4b92d2*/ #faeb8b;
   --pin-bg: #f5f5f5;
   --pin-color: #999fa4;
 
